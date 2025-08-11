@@ -80,15 +80,6 @@ Passos para a Execução
 
         A aplicação será iniciada no seu terminal, e o menu principal será exibido.
 
-Dificuldades e Soluções
-
-Durante o desenvolvimento, enfrentei alguns desafios que foram importantes para a minha aprendizagem:
-
-    Erros de Compilação em Cascata: Inicialmente, tive vários erros de compilação com a mensagem bad source file. Descobri que a causa era um erro ao copiar/colar em algumas classes centrais (como as Entidades e os DAOs). Ao corrigir esses ficheiros-chave, os outros erros desapareceram. A lição foi a importância de verificar o código base com atenção, pois um pequeno erro pode propagar-se por todo o projeto.
-
-    Falhas de Usabilidade: Após implementar as funcionalidades básicas, percebi que a aplicação era funcional, mas não era intuitiva. O sistema gerava IDs para os quadros e cartões, mas não os mostrava ao utilizador, tornando impossível usar funcionalidades como "Selecionar Quadro". Solução: Modifiquei as classes da UI (MainMenu e BoardMenu) para exibir mensagens de sucesso mais informativas, incluindo sempre o ID do item recém-criado.
-
-    Gestão de Transações: Para garantir a integridade dos dados, implementei a gestão de transações (connection.commit() e connection.rollback()) na camada de Serviço. Isto assegura que, se uma operação falhar a meio (por exemplo, ao criar um quadro e as suas colunas), nenhuma alteração parcial é guardada na base de dados.
 
 Próximos Passos e Melhorias Futuras
 
