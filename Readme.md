@@ -90,3 +90,5 @@ Embora o projeto esteja muito completo, há sempre espaço para evoluir:
     Adicionar Testes Unitários: Usar uma framework como o JUnit para criar testes automatizados para a camada de serviço, garantindo que a lógica de negócio se mantém correta à medida que o projeto cresce.
 
     Refatorar a Entrada de Dados: A lógica para receber dados do utilizador nas classes de UI poderia ser extraída para uma classe utilitária, tornando o código dos menus ainda mais limpo e focado apenas na apresentação das opções.
+
+    Fazer Interface gráfica - com UX
