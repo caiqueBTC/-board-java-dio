@@ -1,4 +1,4 @@
-# Gestor de Quadros Kanban (Task Board) - Desafio DIO & GFT
+# Gestor de Quadros tipo Kanban (Task Board) - Desafio DIO & GFT #7
 
 Este projeto é uma aplicação de console em Java que implementa um sistema de gestão de tarefas no estilo Kanban. Foi desenvolvido como solução para o desafio de programação proposto pela Digital Innovation One (DIO) em parceria com a GFT.
 
@@ -21,6 +21,8 @@ Tecnologias e Escolhas Técnicas
     Liquibase: Ferramenta de controlo de versão para o esquema da base de dados. Todas as tabelas são criadas e atualizadas através de migrations em SQL, o que torna a configuração do ambiente automática e à prova de erros.
 
     Maven: Escolhi o Maven como ferramenta de gestão de dependências e de build. Embora o desafio original sugerisse Gradle, optei pelo Maven por ser uma ferramenta extremamente robusta, amplamente utilizada no mercado de trabalho e com a qual tenho mais familiaridade. Ele simplifica a gestão de bibliotecas e a criação do pacote final executável.
+
+    Mas pode ser feito com Gradle
 
     Lombok: Utilizado para reduzir código repetitivo (boilerplate) nas classes de entidade e DTOs, tornando o código mais limpo e focado na lógica de negócio.
 
